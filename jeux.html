@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>ZEFACT | Jeux / Giveaways</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Police Minecraftienne -->
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+<style>
+body, h1, h2, h3, p, a, button {
+  font-family: 'Press Start 2P', cursive;
+  margin: 0;
+  padding: 0;
+  background: #0a0a0a;
+  color: #f5d88b;
+}
+
+/* ==========================
+   Bandeau rubriques
+========================== */
+.top-banner {
+  width: 100%;
+  background: linear-gradient(90deg, #b30000, #000000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.6);
+}
+
+.top-banner a {
+  padding: 5px 15px;
+  font-size: 0.7rem;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  border: 2px solid #ff1a1a;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.25s ease;
+  box-shadow: 0 0 8px rgba(255,0,0,0.4);
+  text-decoration: none;
+}
+
+.top-banner a.active {
+  background: linear-gradient(135deg, #ff4d4d, #b30000);
+  box-shadow: 0 0 25px rgba(255,0,0,0.9), inset 0 0 15px rgba(255,255,0,0.2);
+  transform: scale(1.08);
+}
+
+.top-banner a:hover {
+  background: linear-gradient(135deg, #ff1a1a, #7a0000);
+  box-shadow: 0 0 20px rgba(255,0,0,0.7), inset 0 0 10px rgba(255,255,255,0.1);
+  transform: scale(1.05);
+}
+
+/* ==========================
+   Section Jeux / Giveaways
+========================== */
+.section {
+  padding: 140px 10% 80px 10%;
+  text-align: center;
+  background: linear-gradient(135deg, #0a0a0a, #1a0a0a);
+  border-radius: 15px;
+  border: 2px solid rgba(255,0,0,0.3);
+  box-shadow: 0 0 25px rgba(255,0,0,0.2), inset 0 0 15px rgba(255,215,0,0.1);
+  margin-top: 40px;
+}
+
+.game-box {
+  max-width: 700px;
+  margin: 0 auto;
+  background: rgba(0,0,0,0.85);
+  padding: 50px 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(255,215,0,0.25), 0 0 15px rgba(179,0,0,0.3);
+  border: 2px solid rgba(255,0,0,0.3);
+}
+
+.game-box h2 {
+  margin-bottom: 30px;
+  color: #ffd966;
+  text-shadow: 0 0 10px rgba(255,215,0,0.5);
+}
+
+.game-box p {
+  font-size: 0.85rem;
+  line-height: 1.7;
+  margin-bottom: 40px;
+  color: #f5d88b;
+}
+
+.link-btn {
+  display: inline-block;
+  margin: 12px 8px;
+  padding: 16px 32px;
+  background: linear-gradient(135deg, #ff4d4d, #b30000);
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+  border: 2px solid rgba(255,0,0,0.6);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  box-shadow: 0 0 25px rgba(255,0,0,0.7), inset 0 0 10px rgba(255,255,0,0.2);
+  transition: all 0.3s ease;
+}
+
+.link-btn:hover {
+  background: linear-gradient(135deg, #b30000, #ff1a1a);
+  transform: scale(1.07);
+  box-shadow: 0 0 30px rgba(255,0,0,0.8), inset 0 0 15px rgba(255,255,0,0.3);
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- ✅ BANDEAU NAVIGATION -->
+<div class="top-banner">
+  <a href="index.html">Accueil</a>
+  <a href="classement.html">Classement</a>
+  <a href="jeux.html">Jeux / Giveaways</a>
+  <a href="postuler.html">Postuler</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+
+<section class="section">
+  <div class="game-box">
+    <h2>Jeux & Giveaways</h2>
+    <p>
+      Pour l’instant, il n’y a pas de jeux actifs.  
+      Restez connectés sur notre Discord officiel pour être tenu au courant des prochains événements et giveaways !
+    </p>
+    <a href="accueil.html" class="link-btn">Retour à l’accueil</a>
+  </div>
+</section>
+
+</body>
+</html>
